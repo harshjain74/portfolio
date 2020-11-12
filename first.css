@@ -1,0 +1,277 @@
+.navbardiv{
+    overflow:hidden;
+    background-color:black;
+    position: fixed;
+    top:0;
+    width:100%;
+    margin-left:-10px;
+    opacity: 0.8;
+}
+.headerline{
+    border:2px solid blue;
+    height: 60px;
+    width:100%;
+}
+.navbar{
+    height: 60px;   
+}
+.navbar ul{
+    overflow:auto;
+}
+.navbar li{
+    float: right;
+    list-style:none;
+    margin: 18px 20px;
+    transition: ease 0.3s font-size,ease 0.3s padding-top;
+}
+.navbar li a{
+    color:white;
+    padding: 3px 3px;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    transition: ease 0.3s color;
+    color: green;
+    font-size: 1.2em;
+}
+body{
+    background-color: black;
+}
+.navbar li a:visited{
+    color: red;
+}
+.navbar li a:active{
+    color: yellow;
+}
+
+div.detaildiv {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 70%;
+}
+div.detaildiv p{
+    color:white;
+    padding-left:auto;
+    padding-right: auto;
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 2em;
+}
+.navbar .search{
+    float: left;
+    color:white;
+    padding : 20px 50px;
+}
+div.detaildiv .detailcontainer{
+    color: white;
+    width:97%;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -20px;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.pdiv{
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    margin-top: 100px;
+}
+
+.ndiv{
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    margin-top: 50px;
+}
+
+.namecontainer{    
+    color:rgb(247, 237, 237);
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.studycontainer{
+    color: rgb(255,255,255);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: lighter;
+}
+.pimage{
+    height:300px;
+    width: 300px;
+    border: 2px solid black;  
+    display:block;
+    margin-left:auto;
+    margin-right:auto; 
+    border-radius: 150px;
+}
+.blankcontainer{
+    margin: 20px;
+    width: 30%;
+    margin-left: auto;
+    background-color:white;
+    margin-right: auto;
+}
+
+.technical{
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+
+.skillcontainer{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    height:850px;
+    width:60%;
+}
+.leftskillcontainer{
+    float:left;
+    width:  35%;
+    height: 83%;
+    margin-top: 50px;
+    margin-left:40px;
+}
+
+.rightskillcontainer{
+    float:right;
+    width: 35%;
+    height: 83%;
+    margin-top: 50px;
+    margin-right:40px;
+}
+
+.skillname{
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:15%;
+    text-align: center;
+    color:white;
+    list-style:none;
+}
+.progressbarskill{
+    width:80%;
+    height:30px;
+    
+    
+}/*
+.progressbarskill[value] {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+.progressbarskill[value]::-webkit-progress-bar {
+    background-color: rgb(10,10,0);
+
+    
+  }*/
+
+.projects{
+    height: 800px;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: -160px;
+}
+.app1{
+    height: 30%;
+    margin-left:auto;
+    margin-right:auto;
+    float:left;
+    margin:10px 20px;
+    width:40%;
+    color:blue;
+}
+.noteslogo{
+    border-radius:50px;
+    background-color: yellowgreen;
+    color:blue;
+    border:none;
+    height:100%;
+    width:100%
+}
+.musicapp{
+    border-radius:50px;
+    background-color: yellowgreen;
+    color:blue;
+    border:none;
+    height: 100%;
+    width:100%;
+    
+}
+.app2{
+    height: 30%;
+    margin-left:auto;
+    margin-right:auto;
+    float:right;
+    margin:10px 20px;
+    width:40%;
+    color:blue;
+}
+
+.app1 p{
+    color:white;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    }
+.app2 p{
+    color:white;
+    text-align:center;
+    font-size:2em;
+    
+    font-weight:bold;
+}
+
+.getintouch{
+    color:white;
+    text-align:center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.contacticon{
+    margin: 20px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.listindex{
+    display: inline-block;
+    list-style:none;
+    height: 40%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.iconlist {
+    border:none;
+    margin-right:5%;
+    float:left;
+    border-radius: 100px;
+    width:15%;
+    height:20%;
+    
+    background-color:white;
+    
+}
+
+
+
