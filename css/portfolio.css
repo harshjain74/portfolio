@@ -8,7 +8,6 @@
     opacity: 0.8;
 }
 .headerline{
-    border:2px solid blue;
     height: 60px;
     width:100%;
 }
@@ -43,7 +42,10 @@ body{
 .navbar li a:active{
     color: yellow;
 }
-
+.maincontainer{
+    height: auto;
+    overflow: hidden;
+}
 div.detaildiv {
     margin-left: auto;
     margin-right: auto;
@@ -110,7 +112,6 @@ div.detaildiv .detailcontainer{
 .pimage{
     height:300px;
     width: 300px;
-    border: 2px solid black;  
     display:block;
     margin-left:auto;
     margin-right:auto; 
@@ -139,10 +140,12 @@ div.detaildiv .detailcontainer{
     margin-top: 60px;
     height:850px;
     width:60%;
+    
 }
 .leftskillcontainer{
     float:left;
-    width:  35%;
+    width:  32%;
+    
     height: 83%;
     margin-top: 50px;
     margin-left:40px;
@@ -150,8 +153,9 @@ div.detaildiv .detailcontainer{
 
 .rightskillcontainer{
     float:right;
-    width: 35%;
+    width: 32%;
     height: 83%;
+    
     margin-top: 50px;
     margin-right:40px;
 }
@@ -169,109 +173,99 @@ div.detaildiv .detailcontainer{
     height:30px;
     
     
-}/*
-.progressbarskill[value] {
-    -webkit-appearance: none;
-    appearance: none;
-  }
-.progressbarskill[value]::-webkit-progress-bar {
-    background-color: rgb(10,10,0);
-
+}
+.projecttitle .title{
+    color:white;
+    height:auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.projectcontainer{
+    height:auto;
     
-  }*/
-
-.projects{
-    height: 800px;
-    width: 55%;
-    margin-left: auto;
+    
+    width:60%;
+    margin-left:auto;
     margin-right: auto;
-
-    margin-top: -160px;
 }
-.app1{
-    height: 30%;
+.getintouchs{
+    width:60%;
     margin-left:auto;
-    margin-right:auto;
-    float:left;
-    margin:10px 20px;
-    width:40%;
-    color:blue;
-}
-.noteslogo{
-    border-radius:50px;
-    background-color: yellowgreen;
-    color:blue;
-    border:none;
-    height:100%;
-    width:100%
-}
-.musicapp{
-    border-radius:50px;
-    background-color: yellowgreen;
-    color:blue;
-    border:none;
-    height: 100%;
-    width:100%;
-    
-}
-.app2{
-    height: 30%;
-    margin-left:auto;
-    margin-right:auto;
-    float:right;
-    margin:10px 20px;
-    width:40%;
-    color:blue;
-}
-
-.app1 p{
+    margin-right: auto;
     color:white;
     text-align: center;
-    font-size: 2em;
-    font-weight: bold;
-    }
-.app2 p{
-    color:white;
-    text-align:center;
-    font-size:2em;
-    
-    font-weight:bold;
-}
-
-.getintouch{
-    color:white;
-    text-align:center;
-    font-size: 2em;
+    font-size: 30px;
     font-weight: bold;
 }
-
-.contacticon{
-    margin: 20px;
-    width: 300px;
+.screenshots{
+    overflow: hidden;
+    width: 80%;
+    color: white;
     margin-left: auto;
     margin-right: auto;
-
 }
-
-
-.listindex{
-    display: inline-block;
-    list-style:none;
-    height: 40%;
-    margin-left:auto;
-    margin-right:auto;
+.notesapp{
+    color:white;
 }
-.iconlist {
-    border:none;
-    margin-right:5%;
+.screenshots li{
     float:left;
-    border-radius: 100px;
-    width:15%;
-    height:20%;
-    
-    background-color:white;
-    
+    border-radius: 150px;
+    width: 30%;
+    padding-left: 7%;
+    list-style: none;
+    margin-right: 10%;
+}
+.screenshots li img{
+    border-radius: 50px;
+    width: 100%;
+}
+.screenshots li p{
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 
+.projectcontainers{
+    overflow: hidden;
+    width: 30%;
+    color: white;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid green;
+}
+.projectcontainers li a{
+    background-color: blue;
+    color: white;
+    height: 100%;
+}
+.projectcontainers li{
+    float: left;
+    list-style: none;
+}
 
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
