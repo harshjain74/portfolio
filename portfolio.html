@@ -7,7 +7,12 @@
     <title>Harsh Portfolio</title>
     <link rel='stylesheet' href='css/portfolio.css'> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<style>
+body{
+    margin:0px;
+    padding:0px;
+}
+</style>
 </head>
 <body>
 <header id='jumptohome'>
@@ -19,7 +24,7 @@
     <li><a href='#jumptoabout'>About</a></li>
     <li><a href='#jumptohome'>Home</a></li>
     
-    <div class = 'search'>
+    <div class = 'portfolio'>
     <!--<input type='text' name='search' id='search' placeholder='Search here'>-->
     Portfolio
     </div>
@@ -30,15 +35,17 @@
 </div>
 </header>
 <div class='maincontainer'>
+<div class='imagebox'>
  <div class='pdiv'>
  <img src='images/myimage.jpg' class ='pimage'>
  </div>
+</div>
  <div class = 'ndiv' id='jumptoabout'>
- <h2 class ='namecontainer'>Harsh Jain</h2>
+ <p class ='namecontainer'>Harsh Jain</p>
  </div>
  
  <div class = 'ndiv'>
- <h2 class ='studycontainer'>Engineering Student</h2>
+ <p class ='namecontainer'>Engineering Student</p>
  </div>
  <div class='detaildiv'>
  <p>Hello,</p>
@@ -52,8 +59,8 @@
  <p id='jumptoskill' class='technical'>Technical Skills</p>
  <hr class='blankcontainer'>
  </div>
- <div class='skillcontainer'>
- <div class='leftskillcontainer'>
+ <div class='projects'><!--skill container-->
+ <div class='languages' >
  <ul>
  <li class ='skillname'><p>Java<p><progress class='progressbarskill' value='55' max='100'>55%</progress>
 </li>
@@ -63,7 +70,7 @@
  <li class ='skillname'><p>C</p><progress class='progressbarskill' value='68' max='100'>50%</progress></li>
  </ul>
  </div>
- <div class='rightskillcontainer'>
+ <div class='languages'>
  <ul>
  <li class ='skillname'><p>Flutter<p><progress class='progressbarskill' value='60' max='100'>60%</progress>
 </li>
@@ -71,46 +78,43 @@
  <li class ='skillname'><p>C++</p><progress class='progressbarskill' value='65' max='100'>65%</progress></li>
  <li class ='skillname'><p>Django</p><progress class='progressbarskill' value='65' max='100'>65%</progress></li>
  <li class ='skillname'><p>CSS</p><progress class='progressbarskill' value='80' max='100'>80%</progress></li>
- </ul></div>
+ </ul>
  </div>
- <div class='projectcontainer'>
- <div class='projecttitle'>
+ </div>
+ 
+ <div class='bdiv'>
  <hr class='blankcontainer'>
- <p class='title'>Projects</p>
+ <p id='jumptoskill' class='technical'>Projects</p>
  <hr class='blankcontainer'>
  </div>
- <div class='screenshots'>
- <ul>
-<li class='applogo'><a href="music.html">
-<div class='app2'>
-<img border="0" src="images/music.jpg" alt='notes' class='notesapp'>
+ <div class='projects'>
+ <div class='project'>
+<a href="notes.html">
+<img class='notesapp' border="0" src="images/icon.jpg" alt='noteslogo'>
+<p>Notes</p>
+</a>
+ </div>
+ <div class='project'>
+ <a href="music.html">
+ <img border="0" src="images/music.jpg" alt='musiclogo'>
 <p>Music</p>
-</div>
-</a></li>
-<li class='applogo'><a href="music.html">
-<div>
-<img border="0" src="images/music.jpg" alt='music' class='musicapp'>
-<p>Music</p>
-</div>
-</a></li>
-</ul>
+</a>
  </div>
  </div>
- <div class ='getintouchs'>
+ 
+ <div class ='bdiv'>
 <hr class='blankcontainer'>
-<p class='getintouch'>GET IN TOUCH</p>
+<p class='technical'>GET IN TOUCH</p>
 <hr class='blankcontainer'>
 </div>
 
 
 <div class='projectcontainers'>
-<ul>
-<li><a href='https://www.facebook.com/harsh.jain.397948' target='_blank' class="fa fa-facebook"></a></li>
-<li><a href='https://twitter.com/HarshJa93269504?s=09' target='_blank' class="fa fa-twitter"></a></li>
 
-<li><a href='https://www.linkedin.com/in/harsh-jain-57a67714b/' target='_blank' class="fa fa-linkedin"></a></li>
-<li><a href='https://github.com/harshjain74' target='_blank' class="fa fa-github"></a></li>
-</ul>
+<div class='item'><a href='https://www.facebook.com/harsh.jain.397948' target='_blank' class="fa fa-facebook"></a></div>
+<div class='item'><a href='https://twitter.com/HarshJa93269504?s=09' target='_blank' class="fa fa-twitter"></a></div>
+<div class='item'><a href='https://www.linkedin.com/in/harsh-jain-57a67714b/' target='_blank' class="fa fa-linkedin"></a></div>
+<div class='item'><a href='https://github.com/harshjain74' target='_blank' class="fa fa-github"></a></div>
 
 </div>
 </div>

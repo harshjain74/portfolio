@@ -1,18 +1,18 @@
-.navbardiv{
+.header{
     overflow:hidden;
     background-color:black;
-    position: fixed;
-    top:0;
+    top:0px;
     width:100%;
+    height: auto;
     margin-left:-10px;
     opacity: 0.8;
 }
 .headerline{
-    height: 60px;
+    height: auto;
     width:100%;
 }
 .navbar{
-    height: 60px;   
+    height: auto;   
 }
 .navbar ul{
     overflow:auto;
@@ -44,15 +44,37 @@ body{
 }
 .maincontainer{
     height: auto;
-    overflow: hidden;
+    overflow: none;
 }
-div.detaildiv {
+.imagebox{
+  
+    display: flex;
+    height: auto;
+
+    justify-content: center;
+}
+.pdiv{
+    justify-content: center;
+    width:45%;
+    display: flex;
+    height: auto;
+}
+.pimage{
+    height:85%;
+    width: 50%;
+    display:inline-block;
+    border-radius: 150px;
+}
+
+.detaildiv {
+    flex-wrap: wrap;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
     width: 70%;
 }
-div.detaildiv p{
+.detaildiv p{
     color:white;
     padding-left:auto;
     padding-right: auto;
@@ -62,14 +84,16 @@ div.detaildiv p{
     font-weight: bold;
     font-size: 2em;
 }
-.navbar .search{
+.navbar .portfolio{
     float: left;
     color:white;
-    padding : 20px 50px;
+    padding : 20px 30px;
 }
-div.detaildiv .detailcontainer{
+.detaildiv .detailcontainer{
     color: white;
     width:97%;
+    
+    flex-wrap: wrap;
     
     margin-left: 10px;
     margin-right: 10px;
@@ -79,196 +103,144 @@ div.detaildiv .detailcontainer{
     text-align: justify;
 }
 
-.pdiv{
-    margin-left:auto;
-    margin-right:auto;
-    width:50%;
-    margin-top: 100px;
-}
+
 
 .ndiv{
-    margin-left:auto;
-    margin-right:auto;
-    width:50%;
-    margin-top: 50px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+    justify-content: center;
+    flex-wrap:wrap;
+    align-items: center;
+
+ 
 }
 
 .namecontainer{    
     color:rgb(247, 237, 237);
-    margin-left:auto;
-    margin-right: auto;
-    width: 50%;
+    font-size: 1.2em;
+    flex-wrap:wrap;
     text-align: center;
     font-weight: bold;
 }
 
-.studycontainer{
-    color: rgb(255,255,255);
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-weight: lighter;
-}
-.pimage{
-    height:300px;
-    width: 300px;
-    display:block;
-    margin-left:auto;
-    margin-right:auto; 
-    border-radius: 150px;
-}
+
+
 .blankcontainer{
     margin: 20px;
-    width: 30%;
+    width: 20%;
     margin-left: auto;
     background-color:white;
     margin-right: auto;
 }
 
 .technical{
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     color: white;
 }
 
-.skillcontainer{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 60px;
-    height:850px;
-    width:60%;
+.languages ul{
+    width: 100%;
+    height:auto;
+    padding-left: 10px;
     
-}
-.leftskillcontainer{
-    float:left;
-    width:  32%;
-    
-    height: 83%;
-    margin-top: 50px;
-    margin-left:40px;
 }
 
 .rightskillcontainer{
-    float:right;
-    width: 32%;
-    height: 83%;
+    width: 35%;
+    height: auto;
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: center;
     
     margin-top: 50px;
-    margin-right:40px;
 }
 
 .skillname{
-    margin-top:50px;
-    margin-left:auto;
-    margin-right:15%;
-    text-align: center;
+    display: inline;
+    justify-content: center;
     color:white;
     list-style:none;
 }
 .progressbarskill{
-    width:80%;
+    width:100%;
+    display: flex;
+    flex-flow: row wrap;
     height:30px;
-    
-    
 }
-.projecttitle .title{
-    color:white;
-    height:auto;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-}
-.projectcontainer{
-    height:auto;
-    
-    
-    width:60%;
-    margin-left:auto;
-    margin-right: auto;
-}
-.getintouchs{
-    width:60%;
-    margin-left:auto;
-    margin-right: auto;
-    color:white;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-}
-.screenshots{
-    overflow: hidden;
-    width: 80%;
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-}
-.notesapp{
-    color:white;
-}
-.screenshots li{
-    float:left;
-    border-radius: 150px;
-    width: 30%;
-    padding-left: 7%;
-    list-style: none;
-    margin-right: 10%;
-}
-.screenshots li img{
-    border-radius: 50px;
-    width: 100%;
-}
-.screenshots li p{
-    text-align: center;
-    color:white;
-    text-decoration: none;
-    font-size: 20px;
-}
+
+
+
+
 
 
 .projectcontainers{
-    overflow: hidden;
-    width: 30%;
-    color: white;
-    height:auto;
+    display: flex;
+    height: auto;
+    
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;    
+} 
+
+.item{
+    width:30px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: blue;
+    margin-right: 10px;
+    
+    
+}
+.fa{
+    justify-content: center;
+    font-size: 30px;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    color:white;
+}
+
+.projects{
+    width:60%;
     margin-left: auto;
     margin-right: auto;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    align-content: center;
 }
-.projectcontainers ul{
-    display: inline-block;
+.project img{
+    border-radius: 50px;
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-flow:row wrap;
+    
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    margin-top:10px;
 }
-.projectcontainers li a{
-    background-color: blue;
-    color: white;
-    height: 100%;
+.notesapp{
+    
+    filter:invert(100%);
 }
-.projectcontainers li{
-    float: left;
-    display: inline;
-    list-style: none;
+.project{
+    width: 40%;
 }
 
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
+.project p{
     text-align: center;
-    text-decoration: none;
-  }
-
-  .fa:hover {
-    opacity: 0.7;
-  }
-
-  .fa-facebook {
-    background: #3B5998;
     color: white;
-  }
+    
+}
 
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
