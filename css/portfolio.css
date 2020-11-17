@@ -1,4 +1,4 @@
-.header{
+header{
     overflow:hidden;
     background-color:black;
     top:0px;
@@ -7,10 +7,7 @@
     margin-left:-10px;
     opacity: 0.8;
 }
-.headerline{
-    height: auto;
-    width:100%;
-}
+
 .navbar{
     height: auto;   
 }
@@ -35,6 +32,8 @@
 }
 body{
     background-color: black;
+    margin:0px;
+    padding:0px;
 }
 .navbar li a:visited{
     color: red;
