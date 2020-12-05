@@ -266,8 +266,8 @@ body{
     align-content: center;
     margin-top:10px;
 }
-.notesapp{
-    
+.notesapp{   
+    border:2px solid skyblue;
     filter:invert(100%);
 }
 .project{
